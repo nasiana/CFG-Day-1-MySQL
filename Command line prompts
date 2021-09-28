@@ -1,0 +1,5 @@
+SOURCE C:/Users/owned/Documents/CFG_Nanodegree/MySQL_foundations/temp/sakila-db/sakila-schema.sql;
+
+-- this is the line entered into the MySQL command line 
+
+SOURCE C:/Users/owned/Documents/CFG_Nanodegree/MySQL_foundations/temp/sakila-db/sakila-data.sql;
