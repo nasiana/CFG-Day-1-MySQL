@@ -5,3 +5,7 @@ SOURCE C:/Users/owned/Documents/CFG_Nanodegree/MySQL_foundations/temp/sakila-db/
 SOURCE C:/Users/owned/Documents/CFG_Nanodegree/MySQL_foundations/temp/sakila-db/sakila-data.sql;
 
 -- the following was entered into MySQL command line for my loaned laptop
+
+SOURCE C:/Users/User/Documents/temp/sakila-db/sakila-schema.sql;
+
+SOURCE C:/Users/User/Documents/temp/sakila-db/sakila-data.sql;
