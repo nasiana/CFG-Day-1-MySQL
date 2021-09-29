@@ -1,11 +1,11 @@
 -- MySQL is case insensitive
 
--- the following line of code uses the select function to show population from country table from the world database. Select and from are the MySQL keywords.
+-- the following line of code uses the select function to show "population" from  the "country" table from the "world" database. Select and from are the MySQL keywords.
 SELECT Population FROM world.country;
 
--- this next line of code uses the select function to show both name and population of countries silmutaneously from data taken from the country table from the world database
+-- this next line of code uses the select function to show both "name" and "population" of countries silmutaneously from data taken from the "country" table from the "world" database
 SELECT Name, Population FROM world.country;
 
--- the following line of code will show all of the data in the table country from world database
+-- the following line of code will show all of the data in the "country" table from "world" database
 -- this is considered bad practise unless you really need all the data. Better to select data.
 SELECT * from world.country;
