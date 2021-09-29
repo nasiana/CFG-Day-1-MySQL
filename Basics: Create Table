@@ -1,0 +1,12 @@
+-- CREATE DATABASE is the command commonly used to create a database in MySQL
+-- CREATE DATABASE is a statement that oddly isn't part of SQL standard
+-- However CREATE DATABASE is supported by most implementations
+CREATE DATABASE Food;
+
+-- USE DATABASE is the command used to call the "" database so as to execute queries on this DB
+USE DATABASE Food;
+SELECT *
+FROM Fruit;
+
+SELECT * 
+FROM Food.Fruit;
