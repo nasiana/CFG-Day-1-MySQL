@@ -7,4 +7,5 @@ SELECT Population FROM world.country;
 SELECT Name, Population FROM world.country;
 
 -- the following line of code will show all of the data in the table country from world database
-SELECT * FROM world.country;
+-- this is considered bad practise unless you really need all the data. Better to select data.
+SELECT * from world.country;
