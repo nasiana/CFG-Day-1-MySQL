@@ -1,8 +1,10 @@
+-- MySQL is case insensitive
+
 -- the following line of code uses the select function to show population from country table from the world database. Select and from are the MySQL keywords.
-SELECT Population from world.country;
+SELECT Population FROM world.country;
 
 -- this next line of code uses the select function to show both name and population of countries silmutaneously from data taken from the country table from the world database
-SELECT Name, Population from world.country;
+SELECT Name, Population FROM world.country;
 
 -- the following line of code will show all of the data in the table country from world database
-SELECT * from world.country;
+SELECT * FROM world.country;
