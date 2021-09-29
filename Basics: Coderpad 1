@@ -1,0 +1,7 @@
+-- This line is the query to show all project names and their budgets
+-- This line makes use of the alias feature of MySQL where p is set as the alias
+-- Call two different columns by seperating the columns by comma
+SELECT p.title, p.budget FROM projects p; 
+
+-- use * function to show all info 
+SELECT * FROM employees;
