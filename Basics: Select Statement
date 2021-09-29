@@ -4,6 +4,8 @@
 SELECT Population FROM world.country;
 
 -- this next line of code uses the select function to show both "name" and "population" of countries silmutaneously from data taken from the "country" table from the "world" database
+-- MySQLWorkbench just shows all keywords in blue, hence 'Name' shown as blue in MySQL. But 'Name' is clearly allowed as a column name since we were able to use it. 
+-- Some keywords like "SELECT" or "DELETE" are not allowed to be used as column names just as is - if you wanted to use them you would have to put quotes around them, I believe.
 SELECT Name, Population FROM world.country;
 
 -- the following line of code will show all of the data in the "country" table from "world" database
