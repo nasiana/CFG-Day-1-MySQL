@@ -1,0 +1,21 @@
+INSERT INTO Sweet (id, item_name, price)
+VALUES 
+(1, 'doughnut', 0.5),
+(2, 'croissant', 0.75),
+(3, 'Painauchocolat', 0.55),
+(4, 'cinnamon twirl', 0.45),
+(5, 'cannoli', 0.88),
+(6, 'apple tart', 1.12);
+
+INSERT INTO Savoury (id, item_name, price, main_ingredient)
+VALUES
+(1, 'meat pie', 1.25, 'pork'), 
+-- to get null values, you can't just leave the value blank at this point and expect to receive a null. You have to actually use the "null" function in the entry. We are allowed to use "null" as we did not specify "NOT NULL" for this column. 
+(2, 'sausage roll', 1, null),
+(3, 'pastry', 2.45, 'beef');
+
+-- use Ctrl + Enter to execute without pressing lightning button
+
+-- Use the SELECT command to see all the extra data inserted into the table to see if it has actually been added to the table
+SELECT * FROM Sweet;
+SELECT * FROM Savoury;
