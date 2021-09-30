@@ -1,14 +1,23 @@
 -- CREATE DATABASE is the command to create data
 CREATE DATABASE Bakery;
+
+-- USE DATABASE "" to scope future queries i.e. call the database
 USE Bakery;
+
+-- CREATE TABLE is the command that creates a table
 CREATE TABLE Sweet (
+-- "id" is the column name
+-- "INT" specifies entry must be an integer value
+-- "NOT NULL" specifies that an entry must be made therefore not allowing a NULL value
 	  id INT NOT NULL,
+-- VARCHAR(5) means you can have a string of variable length up to 50 characters	  
 	  item_name VARCHAR(50) NOT NULL,
-      price FLOAT(2)
+-- "FLOAT(2)" specifies the data entered must be a numerical where values are specified to 2 decimal points, which fits for pounds and pennies	  
+   price FLOAT(2)
 );
 
 CREATE TABLE Savoury (
-	  id INT NOT NULL,
+      id INT NOT NULL,
       item_name VARCHAR(50) NOT NULL,
       price FLOAT(2),
       main_ingredient VARCHAR(50)
