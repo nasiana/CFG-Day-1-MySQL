@@ -1,0 +1,15 @@
+-- CREATE DATABASE is the command to create data
+CREATE DATABASE Bakery;
+USE Bakery;
+CREATE TABLE Sweet (
+	  id INT NOT NULL,
+	  item_name VARCHAR(50) NOT NULL,
+      price FLOAT(2)
+);
+
+CREATE TABLE Savoury (
+	  id INT NOT NULL,
+      item_name VARCHAR(50) NOT NULL,
+      price FLOAT(2),
+      main_ingredient VARCHAR(50)
+);  
